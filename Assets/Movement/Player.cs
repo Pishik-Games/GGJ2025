@@ -8,7 +8,7 @@ public class Player : MonoBehaviour {
     public float maxBubbleScale = 5f;
     
     public float health = 100f; // 0..100
-    public float healthDecreaseSpeed = 0.01f; // 0..100
+    public float healthDecreaseSpeed = 0.5f; // 0..100
 
     void Start()
     {
@@ -33,12 +33,13 @@ public class Player : MonoBehaviour {
 
     private void BubbleLogic()
     {
+        health -= healthDecreaseSpeed / 10;
         if(Input.GetKey("space"))
         {
+            health -= healthDecreaseSpeed;
             if (bubble.localScale.x < maxBubbleScale)
             {
                 bubble.localScale += Vector3.one * 0.1f;
-                health -= healthDecreaseSpeed;
             }
         }
         else
