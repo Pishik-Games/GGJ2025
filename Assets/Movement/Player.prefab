@@ -320,6 +320,8 @@ MonoBehaviour:
   maxBubbleScale: 5
   health: 100
   healthDecreaseSpeed: 0.01
+  jumpPower: 7
+  bubblePower: 0.07
 --- !u!50 &4866121966178752372
 Rigidbody2D:
   serializedVersion: 5

@@ -8,7 +8,9 @@ public class Player : MonoBehaviour {
     public float maxBubbleScale = 5f;
     
     public float health = 100f; // 0..100
-    public float healthDecreaseSpeed = 0.5f; // 0..100
+    public float healthDecreaseSpeed = 0.5f;
+    public float jumpPower = 7f; 
+    public float bubblePower = 0.35f; 
 
     void Start()
     {
@@ -34,9 +36,14 @@ public class Player : MonoBehaviour {
     private void BubbleLogic()
     {
         health -= healthDecreaseSpeed / 10;
+        
+        if(Input.GetKeyDown("space"))
+            rb.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
+        
         if(Input.GetKey("space"))
         {
             health -= healthDecreaseSpeed;
+            rb.AddForce(Vector2.up * bubblePower, ForceMode2D.Impulse);
             if (bubble.localScale.x < maxBubbleScale)
             {
                 bubble.localScale += Vector3.one * 0.1f;
