@@ -1,10 +1,14 @@
 using UnityEngine;
 
 public class Player : MonoBehaviour {
+    
     public float moveSpeed = 5f; // Speed of movement
     private Rigidbody2D rb;
     public Transform bubble;
     public float maxBubbleScale = 5f;
+    
+    public float health = 100f; // 0..100
+    public float healthDecreaseSpeed = 0.01f; // 0..100
 
     void Start()
     {
@@ -15,7 +19,16 @@ public class Player : MonoBehaviour {
     void Update()
     {
          BubbleLogic();
-         HorizontalMovment();
+         HorizontalMovement();
+         LoseDetector();
+    }
+
+    private void LoseDetector()
+    {
+        if (health <= 0)
+        {
+            // TODO GameManager.OnDead();
+        }
     }
 
     private void BubbleLogic()
@@ -25,6 +38,7 @@ public class Player : MonoBehaviour {
             if (bubble.localScale.x < maxBubbleScale)
             {
                 bubble.localScale += Vector3.one * 0.1f;
+                health -= healthDecreaseSpeed;
             }
         }
         else
@@ -33,7 +47,7 @@ public class Player : MonoBehaviour {
         }
     }
 
-    void HorizontalMovment()
+    void HorizontalMovement()
     {
         var moveInput = Input.GetAxis("Horizontal");
         rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
