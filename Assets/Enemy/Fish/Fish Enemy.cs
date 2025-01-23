@@ -44,6 +44,7 @@ public class FishEnemy : MonoBehaviour
         if (_direction == Vector2.right || _direction == Vector2.left)
         {
             _direction *= -1;
+            transform.eulerAngles = new Vector3(0,180 - transform.eulerAngles.y,0);
         }
     }
     

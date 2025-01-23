@@ -11,9 +11,9 @@ public class HealthUI: MonoBehaviour
         Debug.Log(player==null);
     }
 
-    private void Update()
-    {
-        var temp = $"{player.health:0.00}%";
-        text.text = temp;
-    }
+    // private void Update()
+    // {
+    //     var temp = $"{player.health:0.00}%";
+    //     text.text = temp;
+    // }
 }
