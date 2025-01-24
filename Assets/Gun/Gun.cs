@@ -13,11 +13,11 @@ public class Gun : MonoBehaviour
     [SerializeField] private Transform _bulletBox;
 
 
-    private Queue<Bullet> _bulletsPool;
+    // private Queue<Bullet> _bulletsPool;
 
     private void Awake()
     {
-        _bulletsPool = new Queue<Bullet>();
+        // _bulletsPool = new Queue<Bullet>();
     }
 
     void Update()
@@ -67,17 +67,24 @@ public class Gun : MonoBehaviour
     void Shoot()
     {
         Bullet bullet;
-        if (_bulletsPool.Count != 0)
-        {
-            bullet = _bulletsPool.Dequeue();
-        }
-        else
-        {
+        // if (_bulletsPool.Count != 0)
+        // {
+        //     bullet = _bulletsPool.Dequeue();
+        // }
+        // else
+        // {
             bullet = Instantiate(_bulletPrefab, _bulletBox);
-        }
+        // }
 
         bullet.transform.position = firePoint.position;
+        bullet.SetGun(this);
         var rigidbody2DComponent = bullet.GetComponent<Rigidbody2D>();
         Debug.Log(transform.forward);
         rigidbody2DComponent.velocity = transform.right * _bulletSpeed * _player.transform.localScale.x;
-    }}
+    }
+
+    // public void AddMeToPool(Bullet gb)
+    // {
+    //     _bulletsPool.Enqueue(gb);
+    // }
+}
