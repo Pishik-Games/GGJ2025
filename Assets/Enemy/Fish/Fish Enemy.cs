@@ -11,13 +11,12 @@ public class FishEnemy : MonoBehaviour
     [SerializeField] private short _moveSpeed;
     [SerializeField] private LayerMask platformLayer; // Layer for platform tiles
     [SerializeField] private Tilemap platformTilemap; // Reference to the Tilemap containing platforms
-    [SerializeField] private Sprite _angryEye;
-    [SerializeField] private Sprite _normalEye;
 
 
     private Rigidbody2D _rigidbody2D;
     private BoxCollider2D _boxTrigger2D;
     private SpriteRenderer _eyeSpriteRenderer;
+    private Animator _animator;
     private Vector2 _direction;
     private short _health = 100;
     // private Player _player;
@@ -29,6 +28,7 @@ public class FishEnemy : MonoBehaviour
         _rigidbody2D = GetComponent<Rigidbody2D>();
         _boxTrigger2D = GetComponent<BoxCollider2D>();
         _eyeSpriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        _animator = GetComponent<Animator>();
         _direction = Vector2.right;
     }
     
@@ -84,7 +84,7 @@ public class FishEnemy : MonoBehaviour
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.tag != "Player") return;
-        _eyeSpriteRenderer.sprite = _normalEye;
+        _animator.SetTrigger("Normal");
         Debug.Log("message from " + gameObject + ": im in OnTriggerExit2D");
         _boxTrigger2D.size = new Vector2(7,5);
         //change sprite to angry fish
@@ -99,7 +99,7 @@ public class FishEnemy : MonoBehaviour
     
         if (!IsPlatformBetween(transform.position, other.transform.position))
         {
-            _eyeSpriteRenderer.sprite = _angryEye;
+            _animator.SetTrigger("Angry");
             // Move towards the player
             Vector2 direction = (other.transform.position - transform.position).normalized; 
             transform.Translate(direction * _moveSpeed * Time.deltaTime);
