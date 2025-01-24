@@ -19,9 +19,10 @@ public class Player : MonoBehaviour {
         rb = GetComponent<Rigidbody2D>();
         rb.freezeRotation = true; 
     }
-
-    void Update()
+    
+    void FixedUpdate()
     {
+        GroundDetector();
          BubbleLogic();
          HorizontalMovement();
          LoseDetector();
@@ -38,11 +39,17 @@ public class Player : MonoBehaviour {
     private void BubbleLogic()
     {
         health -= healthDecreaseSpeed / 10;
+
+        if (canJump)
+        {
+            if(Input.GetKeyDown("space"))
+                rb.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
+        }
         
-        if(Input.GetKeyDown("space") && canJump)
-            rb.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
+        if(Input.GetKeyUp("space"))
+            ShrinkBubble();
         
-        if(Input.GetKey("space"))
+        if(Input.GetKey("space") && !canJump)
         {
             bubble.gameObject.SetActive(true);
             health -= healthDecreaseSpeed;
@@ -50,11 +57,12 @@ public class Player : MonoBehaviour {
             if (bubble.localScale.x < maxBubbleScale)
                 bubble.localScale += Vector3.one * 0.1f;
         }
-        else
-        {
-            bubble.localScale = Vector3.one;
-            bubble.gameObject.SetActive(false);
-        } 
+    }
+
+    private void ShrinkBubble()
+    {
+        bubble.localScale = Vector3.one * 0.2f;
+        bubble.gameObject.SetActive(false);
     }
 
     void HorizontalMovement()
@@ -68,10 +76,10 @@ public class Player : MonoBehaviour {
             _ => transform.localScale
         };
     }
-    void FixedUpdate()
+    private void GroundDetector()
     {
-        // Check if the character is grounded
+        var oldCanJump = canJump;
         canJump = Physics2D.OverlapCircle(transform.position, 3.0f, groundLayer);
+        if (!oldCanJump && canJump) ShrinkBubble(); // on hit ground
     }
-
 }
