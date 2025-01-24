@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: ff43cd4fb81e4de8e84a6b3ff54cc717
+guid: c9fb4e1bf4ad5d24c8b903ce28964dc1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8202235185344811886
-    second: Hobab without border_0
+      213: 2137900480185112427
+    second: mahi gamejam_0
+  - first:
+      213: 4403839531416084263
+    second: mahi gamejam_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,49 +99,62 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hobab without border_0
+      name: mahi gamejam_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 55
-        width: 1992
-        height: 1945
+        x: 135
+        y: 114
+        width: 715
+        height: 776
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 29cef456e8ecb2e80800000000000000
-      internalID: -8202235185344811886
+      spriteID: b67129ed8295bad10800000000000000
+      internalID: 2137900480185112427
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hobab without border_1
+      name: mahi gamejam_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 2000
-        height: 2000
+        x: 859
+        y: 639
+        width: 6
+        height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 82aa1c56cc8c0f5dfa66adee3859e770
-      internalID: 1858977692
+      spriteID: 72fd0e5a8b49d1d30800000000000000
+      internalID: 4403839531416084263
       vertices: []
       indices: 
       edges: []
@@ -147,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c7f4d9bbc7bacc1d2967f34a4361a343
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -157,8 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Hobab without border_0: -8202235185344811886
-      Hobab without border_1: 1858977692
+      mahi gamejam_0: 2137900480185112427
+      mahi gamejam_1: 4403839531416084263
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
