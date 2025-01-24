@@ -1,22 +1,28 @@
 fileFormatVersion: 2
-guid: 6e9ddfae2ba1e8841b00ac4d974284eb
+guid: 5fd61915ffdb7784f999d911771c9a11
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4052174353772112388
-    second: Sword fish_0
+      213: 2597715676791667640
+    second: Hand-character-edit_0
   - first:
-      213: 4795941260591217501
-    second: Sword fish_1
+      213: -932938621869563431
+    second: Hand-character-edit_1
   - first:
-      213: 7478763522688703350
-    second: Sword fish_2
+      213: -2815750422497140106
+    second: Hand-character-edit_2
   - first:
-      213: -7305018347973852180
-    second: Sword fish_3
+      213: -6531981550307529803
+    second: Hand-character-edit_3
   - first:
-      213: 1894646193768027065
-    second: Sword fish_4
+      213: 5054276338656063819
+    second: Hand-character-edit_4
+  - first:
+      213: -7751441423536110521
+    second: Hand-character-edit_5
+  - first:
+      213: -6249026122934718598
+    second: Hand-character-edit_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -125,13 +131,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sword fish_0
+      name: Hand-character-edit_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 53
-        width: 670
-        height: 321
+        x: 790
+        y: 905
+        width: 53
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +146,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 40ae88cfa173c3830800000000000000
-      internalID: 4052174353772112388
+      spriteID: 8bb71ae05a0fc0420800000000000000
+      internalID: 2597715676791667640
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sword fish_1
+      name: Hand-character-edit_1
       rect:
         serializedVersion: 2
-        x: 431
-        y: 364
-        width: 9
-        height: 10
+        x: 855
+        y: 915
+        width: 15
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,19 +168,63 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d5bbd21aa2b9e8240800000000000000
-      internalID: 4795941260591217501
+      spriteID: 9d1e83e24498d03f0800000000000000
+      internalID: -932938621869563431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sword fish_2
+      name: Hand-character-edit_2
       rect:
         serializedVersion: 2
-        x: 445
-        y: 355
+        x: 902
+        y: 918
         width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 672e6e2c8e17ce8d0800000000000000
+      internalID: -2815750422497140106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand-character-edit_3
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 842
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bba38e436db955a0800000000000000
+      internalID: -6531981550307529803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand-character-edit_4
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 898
+        width: 11
         height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -184,19 +234,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 67b5209bcc7e9c760800000000000000
-      internalID: 7478763522688703350
+      spriteID: b41b1422d85642640800000000000000
+      internalID: 5054276338656063819
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sword fish_3
+      name: Hand-character-edit_5
       rect:
         serializedVersion: 2
-        x: 14
-        y: 62
-        width: 43
+        x: 883
+        y: 881
+        width: 31
         height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -206,20 +256,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ce3ce43248c5f9a90800000000000000
-      internalID: -7305018347973852180
+      spriteID: 744c1ec18195d6490800000000000000
+      internalID: -7751441423536110521
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sword fish_4
+      name: Hand-character-edit_6
       rect:
         serializedVersion: 2
-        x: 15
-        y: 68
-        width: 28
-        height: 16
+        x: 104
+        y: 383
+        width: 1261
+        height: 404
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,8 +278,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9b3d69acca22b4a10800000000000000
-      internalID: 1894646193768027065
+      spriteID: a7fe65699dff649a0800000000000000
+      internalID: -6249026122934718598
       vertices: []
       indices: 
       edges: []
@@ -248,11 +298,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Sword fish_0: 4052174353772112388
-      Sword fish_1: 4795941260591217501
-      Sword fish_2: 7478763522688703350
-      Sword fish_3: -7305018347973852180
-      Sword fish_4: 1894646193768027065
+      Hand-character-edit_0: 2597715676791667640
+      Hand-character-edit_1: -932938621869563431
+      Hand-character-edit_2: -2815750422497140106
+      Hand-character-edit_3: -6531981550307529803
+      Hand-character-edit_4: 5054276338656063819
+      Hand-character-edit_5: -7751441423536110521
+      Hand-character-edit_6: -6249026122934718598
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

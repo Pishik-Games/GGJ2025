@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d9377b35d734c2186a7a49a29a907e82
+guid: bdd4607d5902c394c84b58f19b2e0b52
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6552080998607782450
-    second: Feet-character-color_0
+      213: 8661576931077082048
+    second: Hobab low res_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Feet-character-color_0
+      name: Hobab low res_0
       rect:
         serializedVersion: 2
-        x: 385
-        y: 63
-        width: 606
-        height: 538
+        x: 15
+        y: 13
+        width: 194
+        height: 194
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2328a9d24faadea50800000000000000
-      internalID: 6552080998607782450
+      spriteID: 0cb419be35a143870800000000000000
+      internalID: 8661576931077082048
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Feet-character-color_0: 6552080998607782450
+      Hobab low res_0: 8661576931077082048
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

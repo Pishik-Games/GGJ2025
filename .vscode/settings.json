@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Mariana Discovery.sln"
+    "dotnet.defaultSolution": "GGJ2025.sln"
 }

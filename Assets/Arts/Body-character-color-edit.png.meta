@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d9377b35d734c2186a7a49a29a907e82
+guid: 00c4bf877880d3f42bf96459496d58aa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6552080998607782450
-    second: Feet-character-color_0
+      213: -3226330825719435707
+    second: Body-character-color-edit_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Feet-character-color_0
+      name: Body-character-color-edit_0
       rect:
         serializedVersion: 2
-        x: 385
-        y: 63
-        width: 606
-        height: 538
+        x: 117
+        y: 527
+        width: 802
+        height: 767
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2328a9d24faadea50800000000000000
-      internalID: 6552080998607782450
+      spriteID: 54ea9153535c933d0800000000000000
+      internalID: -3226330825719435707
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Feet-character-color_0: 6552080998607782450
+      Body-character-color-edit_0: -3226330825719435707
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
