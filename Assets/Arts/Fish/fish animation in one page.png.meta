@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: cbd5bb969010c644493c1c713d61ea10
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3218404841750315541
+    second: fish animation in one page_0
+  - first:
+      213: 8672322637151515074
+    second: fish animation in one page_1
+  - first:
+      213: -3689005446188790614
+    second: fish animation in one page_2
+  - first:
+      213: -732337604664245907
+    second: fish animation in one page_3
+  - first:
+      213: 3422670491574475982
+    second: fish animation in one page_4
+  - first:
+      213: -4007897934615051836
+    second: fish animation in one page_5
+  - first:
+      213: 6817975728614437182
+    second: fish animation in one page_6
+  - first:
+      213: 73589979548451110
+    second: fish animation in one page_7
+  - first:
+      213: -9151762082020679386
+    second: fish animation in one page_8
+  - first:
+      213: 1932425756707073091
+    second: fish animation in one page_9
+  - first:
+      213: 5498481894717463792
+    second: fish animation in one page_10
+  - first:
+      213: -7428981467241373919
+    second: fish animation in one page_11
+  - first:
+      213: -1676348042586945170
+    second: fish animation in one page_12
+  - first:
+      213: 7174680960233672302
+    second: fish animation in one page_13
+  - first:
+      213: 8985602057704755469
+    second: fish animation in one page_14
+  - first:
+      213: -5195918287744514482
+    second: fish animation in one page_15
+  - first:
+      213: -3849702022618062833
+    second: fish animation in one page_16
+  - first:
+      213: 4647311581510199777
+    second: fish animation in one page_17
+  - first:
+      213: 174466709028649700
+    second: fish animation in one page_18
+  - first:
+      213: -3184742233493628077
+    second: fish animation in one page_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 400
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fish animation in one page_0
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 661
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed331829dde553d0800000000000000
+      internalID: -3218404841750315541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish animation in one page_1
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 586
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1bef49d774a5870800000000000000
+      internalID: 8672322637151515074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish animation in one page_2
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 126
+        width: 542
+        height: 699
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac8f6587150eccc0800000000000000
+      internalID: -3689005446188790614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish animation in one page_3
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 129
+        width: 629
+        height: 714
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d61c35224d636d5f0800000000000000
+      internalID: -732337604664245907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish animation in one page_4
+      rect:
+        serializedVersion: 2
+        x: 3160
+        y: 126
+        width: 661
+        height: 699
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc12819da4cf7f20800000000000000
+      internalID: 3422670491574475982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish animation in one page_5
+      rect:
+        serializedVersion: 2
+        x: 4157
+        y: 144
+        width: 606
+        height: 672
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c18f3f20161168c0800000000000000
+      internalID: -4007897934615051836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish animation in one page_6
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 576
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e317c4f4dc05e9e50800000000000000
+      internalID: 6817975728614437182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish animation in one page_7
+      rect:
+        serializedVersion: 2
+        x: 3829
+        y: 576
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 621830e42b1750100800000000000000
+      internalID: 73589979548451110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish animation in one page_8
+      rect:
+        serializedVersion: 2
+        x: 2796
+        y: 472
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 621a440efd86ef080800000000000000
+      internalID: -9151762082020679386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish animation in one page_9
+      rect:
+        serializedVersion: 2
+        x: 2811
+        y: 484
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c275fbcfa51da10800000000000000
+      internalID: 1932425756707073091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish animation in one page_10
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 462
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc1d8aa6288e4c40800000000000000
+      internalID: 5498481894717463792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish animation in one page_11
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 474
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f1e1a47b4f6e890800000000000000
+      internalID: -7428981467241373919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish animation in one page_12
+      rect:
+        serializedVersion: 2
+        x: 2803
+        y: 276
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e690fa1465a6cb8e0800000000000000
+      internalID: -1676348042586945170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish animation in one page_13
+      rect:
+        serializedVersion: 2
+        x: 4790
+        y: 285
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e8c7bf156919360800000000000000
+      internalID: 7174680960233672302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish animation in one page_14
+      rect:
+        serializedVersion: 2
+        x: 4825
+        y: 278
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01d286b67543bc70800000000000000
+      internalID: 8985602057704755469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish animation in one page_15
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 272
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e464801b8d364e7b0800000000000000
+      internalID: -5195918287744514482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish animation in one page_16
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 266
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f006fb2386c139ac0800000000000000
+      internalID: -3849702022618062833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish animation in one page_17
+      rect:
+        serializedVersion: 2
+        x: 2834
+        y: 272
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e96978c2419e7040800000000000000
+      internalID: 4647311581510199777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish animation in one page_18
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 262
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eab8c82c84db6200800000000000000
+      internalID: 174466709028649700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fish animation in one page_19
+      rect:
+        serializedVersion: 2
+        x: 3834
+        y: 262
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b9d67efc58dc3d0800000000000000
+      internalID: -3184742233493628077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fish animation in one page_0: -3218404841750315541
+      fish animation in one page_1: 8672322637151515074
+      fish animation in one page_10: 5498481894717463792
+      fish animation in one page_11: -7428981467241373919
+      fish animation in one page_12: -1676348042586945170
+      fish animation in one page_13: 7174680960233672302
+      fish animation in one page_14: 8985602057704755469
+      fish animation in one page_15: -5195918287744514482
+      fish animation in one page_16: -3849702022618062833
+      fish animation in one page_17: 4647311581510199777
+      fish animation in one page_18: 174466709028649700
+      fish animation in one page_19: -3184742233493628077
+      fish animation in one page_2: -3689005446188790614
+      fish animation in one page_3: -732337604664245907
+      fish animation in one page_4: 3422670491574475982
+      fish animation in one page_5: -4007897934615051836
+      fish animation in one page_6: 6817975728614437182
+      fish animation in one page_7: 73589979548451110
+      fish animation in one page_8: -9151762082020679386
+      fish animation in one page_9: 1932425756707073091
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

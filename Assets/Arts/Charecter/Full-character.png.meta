@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: c9fb4e1bf4ad5d24c8b903ce28964dc1
+guid: a03db0559c54b5079a5c2e71fef9e87f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2137900480185112427
-    second: mahi gamejam_0
-  - first:
-      213: 4403839531416084263
-    second: mahi gamejam_1
+      213: 6279603502417900020
+    second: Full-character_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -54,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 500
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -99,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mahi gamejam_0
+      name: Full-character_0
       rect:
         serializedVersion: 2
-        x: 135
-        y: 114
-        width: 715
-        height: 776
+        x: 136
+        y: 63
+        width: 1252
+        height: 1382
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b67129ed8295bad10800000000000000
-      internalID: 2137900480185112427
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mahi gamejam_1
-      rect:
-        serializedVersion: 2
-        x: 859
-        y: 639
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 72fd0e5a8b49d1d30800000000000000
-      internalID: 4403839531416084263
+      spriteID: 4f1faeb5d12a52750800000000000000
+      internalID: 6279603502417900020
       vertices: []
       indices: 
       edges: []
@@ -172,9 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      mahi gamejam_0: 2137900480185112427
-      mahi gamejam_1: 4403839531416084263
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

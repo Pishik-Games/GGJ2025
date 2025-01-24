@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: ff43cd4fb81e4de8e84a6b3ff54cc717
+guid: e78f95185eb5690699f2d62c742e36d1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8202235185344811886
-    second: Hobab without border_0
+      213: -3202104789895388178
+    second: Character full-color_0
+  - first:
+      213: 571450892391878292
+    second: Character full-color_1
+  - first:
+      213: 2799638740510905515
+    second: Character full-color_2
+  - first:
+      213: -6524475540200226013
+    second: Character full-color_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,45 +109,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hobab without border_0
+      name: Character full-color_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 55
-        width: 1992
-        height: 1945
+        x: 136
+        y: 63
+        width: 1248
+        height: 1382
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 29cef456e8ecb2e80800000000000000
-      internalID: -8202235185344811886
+      spriteID: ee365b8b8a6df83d0800000000000000
+      internalID: -3202104789895388178
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hobab without border_1
+      name: Character full-color_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 2000
-        height: 2000
+        x: 1605
+        y: 80
+        width: 1248
+        height: 1365
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 82aa1c56cc8c0f5dfa66adee3859e770
-      internalID: 1858977692
+      spriteID: 49e09971f833ee700800000000000000
+      internalID: 571450892391878292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character full-color_2
+      rect:
+        serializedVersion: 2
+        x: 3074
+        y: 63
+        width: 1248
+        height: 1382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba41393f9905ad620800000000000000
+      internalID: 2799638740510905515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character full-color_3
+      rect:
+        serializedVersion: 2
+        x: 4543
+        y: 80
+        width: 1248
+        height: 1365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32304a870186475a0800000000000000
+      internalID: -6524475540200226013
       vertices: []
       indices: 
       edges: []
@@ -147,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c7f4d9bbc7bacc1d2967f34a4361a343
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -156,9 +209,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Hobab without border_0: -8202235185344811886
-      Hobab without border_1: 1858977692
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

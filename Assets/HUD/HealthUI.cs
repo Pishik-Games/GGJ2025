@@ -4,16 +4,16 @@ using UnityEngine.UI;
 public class HealthUI: MonoBehaviour
 {
     private Player player;
-    public Text text;
+    public Image FillAmountImage;
     private void Start()
     {
         player = FindObjectOfType<Player>();
         Debug.Log(player==null);
     }
 
-    // private void Update()
-    // {
-    //     var temp = $"{player.health:0.00}%";
-    //     text.text = temp;
-    // }
+    private void Update()
+    {
+        var playerHealth = player.health;
+        FillAmountImage.fillAmount = playerHealth / 100;
+    }
 }

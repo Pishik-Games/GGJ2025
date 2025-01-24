@@ -1,10 +1,25 @@
 fileFormatVersion: 2
-guid: ff43cd4fb81e4de8e84a6b3ff54cc717
+guid: 3bcb420c16830f32ea400dcac9afa6cb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8202235185344811886
-    second: Hobab without border_0
+      213: -1242180682303769337
+    second: Hand-character-color_0
+  - first:
+      213: -963874818008926465
+    second: Hand-character-color_1
+  - first:
+      213: 6508784186444777220
+    second: Hand-character-color_2
+  - first:
+      213: -792056197018425512
+    second: Hand-character-color_3
+  - first:
+      213: 4943698941935472155
+    second: Hand-character-color_4
+  - first:
+      213: -4141179405183443821
+    second: Hand-character-color_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,45 +115,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hobab without border_0
+      name: Hand-character-color_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 55
-        width: 1992
-        height: 1945
+        x: 787
+        y: 907
+        width: 56
+        height: 36
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 29cef456e8ecb2e80800000000000000
-      internalID: -8202235185344811886
+      spriteID: 7057e643043e2cee0800000000000000
+      internalID: -1242180682303769337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hobab without border_1
+      name: Hand-character-color_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 2000
-        height: 2000
+        x: 853
+        y: 920
+        width: 15
+        height: 26
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 82aa1c56cc8c0f5dfa66adee3859e770
-      internalID: 1858977692
+      spriteID: ff632a8b5f0af92f0800000000000000
+      internalID: -963874818008926465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand-character-color_2
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 900
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40788b88bb8d35a50800000000000000
+      internalID: 6508784186444777220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand-character-color_3
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 890
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 857e196d51d0205f0800000000000000
+      internalID: -792056197018425512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand-character-color_4
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 856
+        width: 28
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1ec98eaefb8b9440800000000000000
+      internalID: 4943698941935472155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hand-character-color_5
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 344
+        width: 1242
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39c90ea95439786c0800000000000000
+      internalID: -4141179405183443821
       vertices: []
       indices: 
       edges: []
@@ -147,7 +250,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c7f4d9bbc7bacc1d2967f34a4361a343
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -156,9 +259,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Hobab without border_0: -8202235185344811886
-      Hobab without border_1: 1858977692
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

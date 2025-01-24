@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: ff43cd4fb81e4de8e84a6b3ff54cc717
+guid: 6e9ddfae2ba1e8841b00ac4d974284eb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8202235185344811886
-    second: Hobab without border_0
+      213: 4052174353772112388
+    second: Sword fish_0
+  - first:
+      213: 4795941260591217501
+    second: Sword fish_1
+  - first:
+      213: 7478763522688703350
+    second: Sword fish_2
+  - first:
+      213: -7305018347973852180
+    second: Sword fish_3
+  - first:
+      213: 1894646193768027065
+    second: Sword fish_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,49 +108,128 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hobab without border_0
+      name: Sword fish_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 55
-        width: 1992
-        height: 1945
+        x: 7
+        y: 53
+        width: 670
+        height: 321
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 29cef456e8ecb2e80800000000000000
-      internalID: -8202235185344811886
+      spriteID: 40ae88cfa173c3830800000000000000
+      internalID: 4052174353772112388
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hobab without border_1
+      name: Sword fish_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 2000
-        height: 2000
+        x: 431
+        y: 364
+        width: 9
+        height: 10
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 82aa1c56cc8c0f5dfa66adee3859e770
-      internalID: 1858977692
+      spriteID: d5bbd21aa2b9e8240800000000000000
+      internalID: 4795941260591217501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword fish_2
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 355
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b5209bcc7e9c760800000000000000
+      internalID: 7478763522688703350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword fish_3
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 62
+        width: 43
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce3ce43248c5f9a90800000000000000
+      internalID: -7305018347973852180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword fish_4
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 68
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3d69acca22b4a10800000000000000
+      internalID: 1894646193768027065
       vertices: []
       indices: 
       edges: []
@@ -147,7 +238,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c7f4d9bbc7bacc1d2967f34a4361a343
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -156,9 +247,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Hobab without border_0: -8202235185344811886
-      Hobab without border_1: 1858977692
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
