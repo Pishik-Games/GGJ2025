@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class HealthUI: MonoBehaviour
 {
     private Player player;
-    public Text text;
+    public Image FillAmountImage;
     private void Start()
     {
         player = FindObjectOfType<Player>();
@@ -13,7 +13,7 @@ public class HealthUI: MonoBehaviour
 
     private void Update()
     {
-        var temp = $"{player.health:0.00}%";
-        text.text = temp;
+        var playerHealth = player.health;
+        FillAmountImage.fillAmount = playerHealth / 100;
     }
 }
