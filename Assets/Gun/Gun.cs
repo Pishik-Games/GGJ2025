@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,15 +9,21 @@ public class Gun : MonoBehaviour
     [SerializeField] Transform firePoint;
     [SerializeField] private Bullet _bulletPrefab;
     [SerializeField] private Player _player;
+    [SerializeField] private float _bulletSpeed;
+    [SerializeField] private Transform _bulletBox;
 
 
     private Queue<Bullet> _bulletsPool;
 
-    
+    private void Awake()
+    {
+        _bulletsPool = new Queue<Bullet>();
+    }
+
     void Update()
     {
         AimGun();
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButtonDown(0))
         {
             Shoot();
         }
@@ -32,16 +39,26 @@ public class Gun : MonoBehaviour
         Vector2 direction = (mousePosition - gun.position).normalized;
 
         // Calculate the angle to rotate the gun
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 
         // Rotate the gun to face the mouse
+        float angle;
         if (_player.transform.localScale.x == 1)
         {
-            angle = Mathf.Clamp(angle, 30, 150);
+            angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+            angle = Mathf.Clamp(angle, -30, 40);
         }
         else
         {
-            angle = Mathf.Clamp(angle, -30, -150);
+            angle = Mathf.Atan2(-direction.y, -direction.x) * Mathf.Rad2Deg;
+            angle = Mathf.Clamp(angle, -30, 40);
+        }
+        if ((gun.rotation.z < -29 && angle > 39))
+        {
+            return;
+        }
+        else if( (gun.rotation.z > 39 && angle < -29))
+        {
+            return;
         }
         gun.rotation = Quaternion.Euler(0, 0, angle);
     }
@@ -50,14 +67,17 @@ public class Gun : MonoBehaviour
     void Shoot()
     {
         Bullet bullet;
-        if (_bulletsPool.Peek())
+        if (_bulletsPool.Count != 0)
         {
             bullet = _bulletsPool.Dequeue();
         }
         else
         {
-            bullet = Instantiate(_bulletPrefab, transform);
+            bullet = Instantiate(_bulletPrefab, _bulletBox);
         }
+
+        bullet.transform.position = firePoint.position;
         var rigidbody2DComponent = bullet.GetComponent<Rigidbody2D>();
-        rigidbody2DComponent.AddForce(firePoint.forward * 10, ForceMode2D.Impulse);
+        Debug.Log(transform.forward);
+        rigidbody2DComponent.velocity = transform.right * _bulletSpeed * _player.transform.localScale.x;
     }}

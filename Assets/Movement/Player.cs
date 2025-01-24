@@ -14,6 +14,7 @@ public class Player : MonoBehaviour {
     [SerializeField]private bool canJump = true;
     public LayerMask groundLayer;
     public Transform groundDetector;
+    [SerializeField] private Animator _animator;
 
     void Start()
     {
@@ -69,7 +70,16 @@ public class Player : MonoBehaviour {
     void HorizontalMovement()
     {
         var moveInput = Input.GetAxis("Horizontal");
-        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
+        if (moveInput != 0)
+        {
+            _animator.SetBool("Walking", true);
+        }
+        else
+        {
+            _animator.SetBool("Walking", false);
+
+        }
+        rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
 
         transform.localScale = moveInput switch {
             > 0 => new Vector3(1, 1, 1),

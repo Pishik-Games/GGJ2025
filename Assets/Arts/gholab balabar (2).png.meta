@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d9377b35d734c2186a7a49a29a907e82
+guid: 691fee743ac40764abd9a69e67468335
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6552080998607782450
-    second: Feet-character-color_0
+      213: 6008939877193049412
+    second: gholab balabar (2)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Feet-character-color_0
+      name: gholab balabar (2)_0
       rect:
         serializedVersion: 2
-        x: 385
-        y: 63
-        width: 606
-        height: 538
+        x: 27
+        y: 12
+        width: 145
+        height: 1988
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2328a9d24faadea50800000000000000
-      internalID: 6552080998607782450
+      spriteID: 44565c84bfa046350800000000000000
+      internalID: 6008939877193049412
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Feet-character-color_0: 6552080998607782450
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: d9377b35d734c2186a7a49a29a907e82
+guid: 4226664d48f1b4245a55a944321443f6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6552080998607782450
-    second: Feet-character-color_0
+      213: -9063508869958957784
+    second: Character feet_0
+  - first:
+      213: -8127750172175765391
+    second: Character feet_1
+  - first:
+      213: -2458040184078097117
+    second: Character feet_2
+  - first:
+      213: -1937555055145503322
+    second: Character feet_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,12 +122,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Feet-character-color_0
+      name: Character feet_0
       rect:
         serializedVersion: 2
         x: 385
         y: 63
-        width: 606
+        width: 591
         height: 538
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -128,8 +137,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2328a9d24faadea50800000000000000
-      internalID: 6552080998607782450
+      spriteID: 8258e7b04b2f73280800000000000000
+      internalID: -9063508869958957784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character feet_1
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 80
+        width: 606
+        height: 521
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 170f754f74e643f80800000000000000
+      internalID: -8127750172175765391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character feet_2
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 63
+        width: 591
+        height: 538
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325a360d97943edd0800000000000000
+      internalID: -2458040184078097117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character feet_3
+      rect:
+        serializedVersion: 2
+        x: 4537
+        y: 80
+        width: 606
+        height: 521
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a53a4561fb6c15e0800000000000000
+      internalID: -1937555055145503322
       vertices: []
       indices: 
       edges: []
@@ -147,8 +222,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Feet-character-color_0: 6552080998607782450
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
