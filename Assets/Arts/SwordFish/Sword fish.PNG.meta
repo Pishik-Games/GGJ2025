@@ -1,13 +1,22 @@
 fileFormatVersion: 2
-guid: c9fb4e1bf4ad5d24c8b903ce28964dc1
+guid: 6e9ddfae2ba1e8841b00ac4d974284eb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2137900480185112427
-    second: mahi gamejam_0
+      213: 4052174353772112388
+    second: Sword fish_0
   - first:
-      213: 4403839531416084263
-    second: mahi gamejam_1
+      213: 4795941260591217501
+    second: Sword fish_1
+  - first:
+      213: 7478763522688703350
+    second: Sword fish_2
+  - first:
+      213: -7305018347973852180
+    second: Sword fish_3
+  - first:
+      213: 1894646193768027065
+    second: Sword fish_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -54,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 500
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,13 +125,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mahi gamejam_0
+      name: Sword fish_0
       rect:
         serializedVersion: 2
-        x: 135
-        y: 114
-        width: 715
-        height: 776
+        x: 7
+        y: 53
+        width: 670
+        height: 321
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b67129ed8295bad10800000000000000
-      internalID: 2137900480185112427
+      spriteID: 40ae88cfa173c3830800000000000000
+      internalID: 4052174353772112388
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mahi gamejam_1
+      name: Sword fish_1
       rect:
         serializedVersion: 2
-        x: 859
-        y: 639
-        width: 6
-        height: 6
+        x: 431
+        y: 364
+        width: 9
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,8 +162,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 72fd0e5a8b49d1d30800000000000000
-      internalID: 4403839531416084263
+      spriteID: d5bbd21aa2b9e8240800000000000000
+      internalID: 4795941260591217501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword fish_2
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 355
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b5209bcc7e9c760800000000000000
+      internalID: 7478763522688703350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword fish_3
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 62
+        width: 43
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce3ce43248c5f9a90800000000000000
+      internalID: -7305018347973852180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sword fish_4
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 68
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3d69acca22b4a10800000000000000
+      internalID: 1894646193768027065
       vertices: []
       indices: 
       edges: []
@@ -172,9 +247,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      mahi gamejam_0: 2137900480185112427
-      mahi gamejam_1: 4403839531416084263
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
