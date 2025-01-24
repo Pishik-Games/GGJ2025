@@ -80,7 +80,7 @@ public class Player : MonoBehaviour {
     private void GroundDetector()
     {
         var oldCanJump = canJump;
-        canJump = Physics2D.OverlapCircle(groundDetector.position, 1.2f, groundLayer);
+        canJump = Physics2D.OverlapCircle(groundDetector.position, 0.68f, groundLayer);
         if (!oldCanJump && canJump) ShrinkBubble(); // on hit ground
     }
 }
