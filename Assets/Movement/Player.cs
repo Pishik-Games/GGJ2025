@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Player : MonoBehaviour {
@@ -14,7 +15,7 @@ public class Player : MonoBehaviour {
     [SerializeField]private bool canJump = true;
     public LayerMask groundLayer;
     public Transform groundDetector;
-
+    
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -47,11 +48,15 @@ public class Player : MonoBehaviour {
                 rb.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
         }
         
+        if(Input.GetKeyDown("space"))
+            SoundPlayer.PlayBubble();
+        
         if(Input.GetKeyUp("space"))
             ShrinkBubble();
         
         if(Input.GetKey("space") && !canJump)
         {
+            
             bubble.gameObject.SetActive(true);
             health -= healthDecreaseSpeed;
             rb.AddForce(Vector2.up * bubblePower, ForceMode2D.Impulse);
@@ -70,7 +75,13 @@ public class Player : MonoBehaviour {
     {
         var moveInput = Input.GetAxis("Horizontal");
         rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
-
+    
+        if(canJump)
+            if (Math.Abs(moveInput) > 0.2)
+                SoundPlayer.PlayWalking();
+            else
+                SoundPlayer.PauseWalking();
+        
         transform.localScale = moveInput switch {
             > 0 => new Vector3(1, 1, 1),
             < 0 => new Vector3(-1, 1, 1),
