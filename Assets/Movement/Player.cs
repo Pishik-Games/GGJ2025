@@ -13,6 +13,7 @@ public class Player : MonoBehaviour {
     public float bubblePower = 0.35f; 
     [SerializeField]private bool canJump = true;
     public LayerMask groundLayer;
+    public Transform groundDetector;
 
     void Start()
     {
@@ -79,7 +80,7 @@ public class Player : MonoBehaviour {
     private void GroundDetector()
     {
         var oldCanJump = canJump;
-        canJump = Physics2D.OverlapCircle(transform.position, 3.0f, groundLayer);
+        canJump = Physics2D.OverlapCircle(groundDetector.position, 1.2f, groundLayer);
         if (!oldCanJump && canJump) ShrinkBubble(); // on hit ground
     }
 }
