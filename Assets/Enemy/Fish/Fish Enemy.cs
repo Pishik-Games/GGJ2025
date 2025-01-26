@@ -11,6 +11,7 @@ public class FishEnemy : MonoBehaviour
     [SerializeField] private short _moveSpeed;
     [SerializeField] private LayerMask platformLayer; // Layer for platform tiles
     [SerializeField] private Tilemap platformTilemap; // Reference to the Tilemap containing platforms
+    [SerializeField] private GameObject _bubble;
 
 
     private Rigidbody2D _rigidbody2D;
@@ -18,8 +19,10 @@ public class FishEnemy : MonoBehaviour
     private SpriteRenderer _eyeSpriteRenderer;
     private Animator _animator;
     private Vector2 _direction;
-    private short _health = 100;
+    private short _health = 40;
     // private Player _player;
+    private CapsuleCollider2D _capsuleCollider2D;
+
     private float distanceToPlayer;
 
 
@@ -53,8 +56,10 @@ public class FishEnemy : MonoBehaviour
         _health -= damage;
         if (_health < 1)
         {
-            // GameManager.instance.AddScore(20)
-        }
+            _direction = transform.up * 2;
+            _bubble.SetActive(true);
+            _capsuleCollider2D.enabled = false;
+            StartCoroutine(Wait());        }
     }
     
     private void OnCollisionEnter2D(Collision2D other)
@@ -66,7 +71,7 @@ public class FishEnemy : MonoBehaviour
         }
         else if (other.gameObject.tag == "Bullet")
         {
-            Damaged(5);
+            Damaged(20);
         }
         else
         {
@@ -134,5 +139,10 @@ public class FishEnemy : MonoBehaviour
         }
     
         return false;
+    }
+    IEnumerator Wait()
+    {
+        yield return new WaitForSeconds(1.5f);
+        gameObject.SetActive(false);
     }
 }

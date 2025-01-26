@@ -9,17 +9,21 @@ public class ShamshirMahi : MonoBehaviour
     [SerializeField] private short _attackSpeed;
     // [SerializeField] private Player _player;
     [SerializeField] private float _normalHeight;
+    [SerializeField] private GameObject _bubble;
+
 
 
     private Rigidbody2D _rigidbody2D;
     private BoxCollider2D _boxTrigger2D;
     private SpriteRenderer _eyeSpriteRenderer;
     private Vector2 _direction;
-    private short _health = 100;
+    private short _health = 200;
     private float distanceToPlayer;
     private int _targetPointIndex;
     private int _round;
     private short _currentSpeed;
+    private CapsuleCollider2D _capsuleCollider2D;
+
 
 
     private void Awake()
@@ -48,12 +52,12 @@ public class ShamshirMahi : MonoBehaviour
         transform.eulerAngles = new Vector3(0, 180 - transform.eulerAngles.y, 0);
         // _targetPointIndex = 1 - _targetPointIndex;
         _round++;
-        if (_round == 3)
+        if (_round == 1)
         {
             _currentSpeed = _moveSpeed;
             StartCoroutine(HeightAnimation(_normalHeight));
         }
-        else if (_round == 6)
+        else if (_round == 2)
         {
             _currentSpeed = _attackSpeed;
             StartCoroutine(HeightAnimation(-1 * _normalHeight));
@@ -67,6 +71,11 @@ public class ShamshirMahi : MonoBehaviour
         if (_health < 1)
         {
             // GameManager.instance.AddScore(20)
+            _direction = transform.up * 2;
+            _bubble.SetActive(true);
+            _capsuleCollider2D.enabled = false;
+            StartCoroutine(Wait());
+
         }
     }
     
@@ -79,7 +88,7 @@ public class ShamshirMahi : MonoBehaviour
         }
         else if (other.gameObject.tag == "Bullet")
         {
-            Damaged(5);
+            Damaged(20);
         }
     }
     
@@ -98,5 +107,11 @@ public class ShamshirMahi : MonoBehaviour
             transform.position += new Vector3(0, nH, 0);
             yield return new WaitForSeconds(0.03f);
         }
+    }
+    
+    IEnumerator Wait()
+    {
+        yield return new WaitForSeconds(1.5f);
+        gameObject.SetActive(false);
     }
 }

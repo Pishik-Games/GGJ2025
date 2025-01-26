@@ -52,6 +52,8 @@ public class Gun : MonoBehaviour
             angle = Mathf.Atan2(-direction.y, -direction.x) * Mathf.Rad2Deg;
             angle = Mathf.Clamp(angle, -30, 40);
         }
+        
+        
         if ((gun.rotation.z < -29 && angle > 39))
         {
             return;
@@ -60,6 +62,8 @@ public class Gun : MonoBehaviour
         {
             return;
         }
+        
+        
         gun.rotation = Quaternion.Euler(0, 0, angle);
     }
     

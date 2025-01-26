@@ -150,6 +150,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _speed: 0.2
   _down: 0
+  _player: {fileID: 0}
+  playerTransformPosition: {fileID: 0}
 --- !u!61 &6349523068015581017
 BoxCollider2D:
   m_ObjectHideFlags: 0

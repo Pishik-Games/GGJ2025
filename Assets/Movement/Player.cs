@@ -15,20 +15,25 @@ public class Player : MonoBehaviour {
     [SerializeField]private bool canJump = true;
     public LayerMask groundLayer;
     public Transform groundDetector;
-    
     [SerializeField] private Animator _animator;
+    private bool _canMove;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        rb.freezeRotation = true; 
+        rb.freezeRotation = true;
+        _canMove = false;
     }
     
     void FixedUpdate()
     {
-        GroundDetector();
-         BubbleLogic();
-         HorizontalMovement();
-         LoseDetector();
+        if (_canMove)
+        {
+            GroundDetector();
+            BubbleLogic();
+            HorizontalMovement();
+            LoseDetector();   
+        }
     }
 
     private void LoseDetector()
@@ -51,13 +56,14 @@ public class Player : MonoBehaviour {
         
         if(Input.GetKeyDown("space"))
             SoundPlayer.PlayBubble();
+
         
         if(Input.GetKeyUp("space"))
             ShrinkBubble();
         
+        
         if(Input.GetKey("space") && !canJump)
         {
-            
             bubble.gameObject.SetActive(true);
             health -= healthDecreaseSpeed;
             rb.AddForce(Vector2.up * bubblePower, ForceMode2D.Impulse);
@@ -66,7 +72,7 @@ public class Player : MonoBehaviour {
         }
     }
 
-    private void ShrinkBubble()
+    public void ShrinkBubble()
     {
         bubble.localScale = Vector3.one * 0.2f;
         bubble.gameObject.SetActive(false);
@@ -74,19 +80,27 @@ public class Player : MonoBehaviour {
 
     void HorizontalMovement()
     {
+
+
         var moveInput = Input.GetAxis("Horizontal");
-        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
+        
+        
+        if (moveInput != 0)
+        {
+            _animator.SetBool("Walking", true);
+        }
+        else
+        {
+            _animator.SetBool("Walking", false);
+
+        }
+        rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
     
         if(canJump)
             if (Math.Abs(moveInput) > 0.2)
                 SoundPlayer.PlayWalking();
             else
                 SoundPlayer.PauseWalking();
-        
-        if (moveInput != 0)
-            _animator.SetBool("Walking", true);
-        else
-            _animator.SetBool("Walking", false);
         rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
 
         transform.localScale = moveInput switch {
@@ -100,5 +114,10 @@ public class Player : MonoBehaviour {
         var oldCanJump = canJump;
         canJump = Physics2D.OverlapCircle(groundDetector.position, 0.68f, groundLayer);
         if (!oldCanJump && canJump) ShrinkBubble(); // on hit ground
+    }
+
+    public void CanMove(bool b)
+    {
+        _canMove = b;
     }
 }
