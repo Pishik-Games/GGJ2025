@@ -1,10 +1,5 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.Build.Content;
 using UnityEngine;
-using UnityEngine.Tilemaps;
-
 
 public class Crab : MonoBehaviour
 {
@@ -14,8 +9,6 @@ public class Crab : MonoBehaviour
     [SerializeField] private bool _withEdge;
     [SerializeField] private GameObject _bubble;
 
-
-
     private Rigidbody2D _rigidbody2D;
     private SpriteRenderer _eyeSpriteRenderer;
     private Vector2 _direction;
@@ -24,7 +17,6 @@ public class Crab : MonoBehaviour
 
     private bool _up;
     // private Player _player;
-
 
     private void Awake()
     {
@@ -40,7 +32,6 @@ public class Crab : MonoBehaviour
         }
     }
     
-
     private void FixedUpdate()
     {
         _rigidbody2D.velocity = _direction * _moveSpeed;
