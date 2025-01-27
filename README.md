@@ -3,7 +3,9 @@ Global Game Jam 2025 [Published here](https://globalgamejam.org/games/2025/maria
 
 <img src="./media/cover.jpeg"></img>
 
-<img src="./media/play.png" href="https://pishik-games.github.io/GGJ2025/"></img>
+<a href="https://pishik-games.github.io/GGJ2025/">
+    <img src="./media/play.png"></img>
+</a>
 
 ## How to play
 
