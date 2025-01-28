@@ -3,8 +3,10 @@ Global Game Jam 2025 [Published here](https://globalgamejam.org/games/2025/maria
 
 <img src="./media/cover.jpeg"></img>
 
+[Watch the video](https://pishik-games.github.io/GGJ2025/demo.html)
+
 <a href="https://pishik-games.github.io/GGJ2025/">
-    <img src="./media/play.png"></img>
+    <img src="./media/play.png" width=180></img>
 </a>
 
 ## How to play
@@ -28,6 +30,9 @@ Note: this game is OpenSource
 <img src="./media/gameplay1.png" width="300"></img>
 <img src="./media/gameplay2.png" width="300"></img>
 
-# Team
+## Team
 
 <img src="./media/team.jpeg" width="300"></img>
+
+
+
